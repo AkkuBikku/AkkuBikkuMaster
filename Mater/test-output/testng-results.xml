@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T10:58:58 IST" name="ParallelSuit" finished-at="2023-01-22T10:59:38 IST" duration-ms="40246">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T10:58:58 IST" name="ParallelTest2" finished-at="2023-01-22T10:59:22 IST" duration-ms="24730">
+      <class name="testNG_parallelTests.ParallelTest2">
+        <test-method signature="loginTest()[pri:0, instance:testNG_parallelTests.ParallelTest2@49ec71f8]" started-at="2023-01-22T10:58:58 IST" name="loginTest" finished-at="2023-01-22T10:59:20 IST" duration-ms="21988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:testNG_parallelTests.ParallelTest2@49ec71f8]" started-at="2023-01-22T10:59:20 IST" name="closeDown" finished-at="2023-01-22T10:59:22 IST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- testNG_parallelTests.ParallelTest2 -->
+    </test> <!-- ParallelTest2 -->
+    <test started-at="2023-01-22T10:58:58 IST" name="ParallelTest1" finished-at="2023-01-22T10:59:38 IST" duration-ms="40245">
+      <class name="testNG_parallelTests.ParallelTest1">
+        <test-method signature="logoTest()[pri:0, instance:testNG_parallelTests.ParallelTest1@130161f7]" started-at="2023-01-22T10:58:58 IST" name="logoTest" finished-at="2023-01-22T10:59:21 IST" duration-ms="22983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:testNG_parallelTests.ParallelTest1@130161f7]" started-at="2023-01-22T10:59:21 IST" name="closeDown" finished-at="2023-01-22T10:59:22 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method signature="verifyTitle()[pri:0, instance:testNG_parallelTests.ParallelTest1@130161f7]" started-at="2023-01-22T10:59:22 IST" name="verifyTitle" finished-at="2023-01-22T10:59:37 IST" duration-ms="14970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:testNG_parallelTests.ParallelTest1@130161f7]" started-at="2023-01-22T10:59:37 IST" name="closeDown" finished-at="2023-01-22T10:59:38 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- testNG_parallelTests.ParallelTest1 -->
+    </test> <!-- ParallelTest1 -->
+  </suite> <!-- ParallelSuit -->
+</testng-results>
